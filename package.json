@@ -1,0 +1,15 @@
+{
+  "name": "twitter-printer",
+  "version": "1.0.0",
+  "description": "Twitter ESC/POS printer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "escpos-print": "^1.1.1",
+    "twit": "^2.2.9"
+  }
+}
