@@ -23,7 +23,7 @@ async function printer()
             .writeLine(`User: @${tweet.user.screen_name}`)
             .writeLine(`Time: ${tweet.created_at}`)
             .feed(1)
-            .writeLine(tweet.text, )
+            .writeLine(tweet.text)
             .feed(4)
             .cut(true)
             .flush();
